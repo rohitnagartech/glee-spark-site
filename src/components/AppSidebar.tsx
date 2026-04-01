@@ -42,7 +42,7 @@ export function AppSidebar() {
         </div>
       </SidebarHeader>
       <SidebarContent>
-        <SidebarGroup defaultOpen>
+        <SidebarGroup>
           <SidebarGroupLabel className="text-muted-foreground font-mono text-xs">
             {!collapsed && "MODULES"}
           </SidebarGroupLabel>
